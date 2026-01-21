@@ -1,0 +1,24 @@
+<!-- Nagłówek sekcji kontaktowej -->
+<h1>Skontaktuj się z nami</h1>
+
+<!-- Formularz kontaktowy wysyłający wiadomość na podany adres email -->
+<form action="mailto:twojemail@domena.pl" method="post" enctype="text/plain">
+
+    <!-- Pole na imię i nazwisko użytkownika -->
+    <label>Imię i nazwisko:</label><br>
+    <input type="text" name="imie" required><br><br>
+
+    <!-- Pole na adres e-mail użytkownika -->
+    <label>Adres e-mail:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Pole na treść wiadomości -->
+    <label>Treść wiadomości:</label><br>
+    <textarea name="wiadomosc" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Przyciski formularza -->
+    <!-- Wysyła wiadomość -->
+    <input type="submit" value="Wyślij">
+    <!-- Czyści wszystkie pola formularza -->
+    <input type="reset" value="Wyczyść">
+</form>
